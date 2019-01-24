@@ -14,8 +14,8 @@ import matplotlib.image as mpimg
 import cv2
 import numpy as np
 from skimage.io import imread_collection
-col_dir1='/content/drive/My Drive/Colab Notebooks/Trump/*.jpg'
-col_dir2='/content/drive/My Drive/Colab Notebooks/chicken/*.jpg'
+col_dir1='/Trump/*.jpg'
+col_dir2='chicken/*.jpg'
 trump=imread_collection(col_dir1)
 chicken=imread_collection(col_dir2)
 trump_pixels=[]
